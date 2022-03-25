@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+body {
+  background-color: rgba(6, 146, 177, 1);
+  margin: 0;
+  padding: 0;
+}
+
+.lg-wrapper {
+  position: relative;
+}
+
+/* navbar starts */
+
+.navbg {
+  background-color: rgba(241, 242, 246, 1);
+}
+
+.logofont {
+  font-family: "bebas neue", cursive;
+}
+
+.nav-link {
+  font-family: "bebas neue", cursive;
+  font-size: 1.12rem;
+}
+
+.logo {
+  background-image: url("/Final-Project/img/Art\ by\ Roque.png");
+  background-size: cover;
+  border-radius: 2px;
+  height: 35px;
+  width: 35px;
+}
+
+/* Navbar toggler animation and styling */
+
+.navbar-toggler {
+  width: 35px;
+  height: 20px;
+  position: relative;
+  transition: 0.5s ease-in-out;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+  border: 0;
+}
+
+.navbar-toggler span {
+  margin: 0;
+  padding: 0;
+}
+.toggler-icon {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background-color: rgba(6, 146, 177, 1);
+  border-radius: 50px;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: 0.25s ease-in-out;
+}
+
+.middle-bar {
+  margin-top: 0px;
+}
+
+/* When navigation is clicked */
+
+.navbar-toggler .top-bar {
+  margin-top: 0px;
+  transform: rotate(135deg);
+}
+
+.navbar-toggler .middle-bar {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bottom-bar {
+  margin-top: 0px;
+  transform: rotate(-135deg);
+}
+
+/* State when the navbar is collapsed */
+
+.navbar-toggler.collapsed .top-bar {
+  margin-top: -20px;
+  transform: rotate(0deg);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+  margin-top: 20px;
+  transform: rotate(0deg);
+}
+
+/* navbar ends */
+
+/* Tried this method using getwaves.io to implement svg and position it at bottom */
+
+/* .wave1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+@media(max-width:100wh){
+
+    .wave{
+        height: 50vh;
+    }
+
+
+
+} */
+
+/* This is the CSS for Shapedivider.app*/
+
+.custom-shape-divider-bottom-1648154086 {
+  position: absolute;
+  bottom: -0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  z-index: -1;
+  padding: 0;
+}
+
+.custom-shape-divider-bottom-1648154086 svg {
+  position: relative;
+  display: block;
+  width: calc(240% + 1.3px);
+  height: 303px;
+}
+
+.custom-shape-divider-bottom-1648154086 .shape-fill {
+  fill: #353535;
+}
+
+/* Shapedivider.app Ends */
+
+.home-logo {
+  background-image: url("/Final-Project/img/Roque\ Martinez\ Blurb\ Portrait.jpg");
+  background-size: cover;
+  height: 400px;
+  width: 400px;
+}
+
+.art {
+  color: rgba(247, 211, 80, 1);
+}
+
+.logo-name {
+  font-family: ("oswald", cursive);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 7em;
+  line-height: 98%;
+  color: rgba(241, 242, 246, 1);
+}
+
+.readmore {
+  border-color: rgba(247, 211, 80, 1);
+}
+
+.hello {
+  background-color: rgba(247, 211, 80, 1);
+  border-color: rgba(247, 211, 80, 1);
+}
+
+.portfolio {
+  background-color: rgba(53, 53, 53, 1);
+}
+
+.portfolio-title {
+  font-family: ('oswald');
+  font-weight: 500;
+  letter-spacing: 1.1;
+  color: rgba(241, 242, 246, 1);
+}
+
+.shape {
+  background-color: rgba(247, 211, 80, 1);
+  height: 4px;
+  width: 30vw;
+
+}
