@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 body {
   background-color: rgba(6, 146, 177, 1);
@@ -18,11 +18,11 @@ body {
 }
 
 .logofont {
-  font-family: "bebas neue", cursive;
+  font-family: 'bebas neue', cursive;
 }
 
 .nav-link {
-  font-family: "bebas neue", cursive;
+  font-family: 'bebas neue', cursive;
   font-size: 1.12rem;
 }
 
@@ -127,6 +127,9 @@ body {
 
 } */
 
+
+
+
 /* This is the CSS for Shapedivider.app*/
 
 .custom-shape-divider-bottom-1648154086 {
@@ -138,13 +141,16 @@ body {
   line-height: 0;
   z-index: -1;
   padding: 0;
+  filter: url(#shadow);
+  
+
 }
 
 .custom-shape-divider-bottom-1648154086 svg {
   position: relative;
   display: block;
   width: calc(240% + 1.3px);
-  height: 303px;
+  height: 600px;
 }
 
 .custom-shape-divider-bottom-1648154086 .shape-fill {
@@ -153,11 +159,15 @@ body {
 
 /* Shapedivider.app Ends */
 
+
+
+
 .home-logo {
   background-image: url("/Final-Project/img/Roque\ Martinez\ Blurb\ Portrait.jpg");
   background-size: cover;
   height: 400px;
   width: 400px;
+  
 }
 
 .art {
@@ -165,21 +175,21 @@ body {
 }
 
 .logo-name {
-  font-family: ("oswald", cursive);
-  font-style: normal;
+  font-family: 'Oswald',sans-serif;
   font-weight: 400;
-  font-size: 7em;
+  /* font-size: 7em; */
   line-height: 98%;
   color: rgba(241, 242, 246, 1);
 }
 
 .readmore {
-  border-color: rgba(247, 211, 80, 1);
+  font-family: ('oswald');
+  font-weight: 600;
 }
 
 .hello {
-  background-color: rgba(247, 211, 80, 1);
-  border-color: rgba(247, 211, 80, 1);
+  font-family: ('oswald');
+  font-weight: 600;
 }
 
 .portfolio {
@@ -187,9 +197,9 @@ body {
 }
 
 .portfolio-title {
-  font-family: ('oswald');
+  font-family: 'Oswald', sans-serif;
   font-weight: 500;
-  letter-spacing: 1.1;
+  letter-spacing: 1.1rem;
   color: rgba(241, 242, 246, 1);
 }
 
@@ -199,3 +209,189 @@ body {
   width: 30vw;
 
 }
+
+.services-title {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+  letter-spacing: 1.1rem;
+  color: rgba(241, 242, 246, 1);
+
+}
+
+
+.services {
+  position: relative;
+}
+
+.about-me {
+  position: relative;
+}
+
+
+
+/* curve for services section start */
+
+.custom-shape-divider-top-1648270825 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  z-index: -1;
+}
+
+.custom-shape-divider-top-1648270825 svg {
+  position: relative;
+  display: block;
+  width: calc(164% + 1.3px);
+  height: 413px;
+}
+
+.custom-shape-divider-top-1648270825 .shape-fill {
+  fill: #353535;
+}
+
+/* curve for services section end */
+
+
+
+/* curve about me section start */
+
+.custom-shape-divider-bottom-1648437446 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  z-index: -1;
+
+}
+
+.custom-shape-divider-bottom-1648437446 svg {
+  position: relative;
+  display: block;
+  width: calc(202% + 1.3px);
+  height: 460px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1648437446 .shape-fill {
+  fill: #353535;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .custom-shape-divider-bottom-1648437446 svg {
+      width: calc(300% + 1.3px);
+      height: 500px;
+  }
+}
+
+/* curve about me section end */
+
+
+
+/* cards in Services section start */
+
+.card-title {
+  font-family: 'oswald',sans-serif;
+}
+
+.card-color {
+  background-color: rgba(53, 53, 53, .4)
+  
+}
+
+.card-body {
+  color: rgba(241, 242, 246, 1);
+}
+
+.service-col {
+  filter: drop-shadow(-8px -8px 5px rgba(0, 0, 0, 0.7));
+
+}
+
+/* cards in Services section ends */
+
+
+
+.shape2 {
+  background-color: rgba(247, 211, 80, 1);
+  height: 4px;
+
+}
+
+.bg-image {
+  max-height: 50vh;
+  width: 50vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: drop-shadow(-8px -8px 15px rgba(0, 0, 0, 0.7));
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.my-story {
+  font-family: 'oswald';
+  color: rgb(0, 0, 0);
+  font-size: 1.1rem;
+}
+
+.contact {
+  background-color: rgba(53, 53, 53, 1);
+}
+
+/* FORM ELEMENTS */
+
+.form-label {
+  font-family: 'oswald',sans-serif;
+  color: rgba(241, 242, 246, 1);
+}
+
+.map {
+  height: 50vh;
+  min-width: 30%;
+}
+
+.submit {
+  font-family: 'oswald', sans-serif;
+  font-weight: 600;
+}
+
+
+.custom-shape-divider-top-1648531390 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  z-index: -1;
+}
+
+.custom-shape-divider-top-1648531390 svg {
+  position: relative;
+  display: block;
+  width: calc(192% + 1.3px);
+  height: 300px;
+}
+
+.custom-shape-divider-top-1648531390 .shape-fill {
+  fill: #353535;
+}
+
+.footer {
+  position: relative;
+}
+
+.fa-brands {
+  color: #ffc107;
+}
+
+
+
+
