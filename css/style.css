@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
 
 body {
   background-color: rgba(6, 146, 177, 1);
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .lg-wrapper {
@@ -18,11 +19,11 @@ body {
 }
 
 .logofont {
-  font-family: 'bebas neue', cursive;
+  font-family: "bebas neue", cursive;
 }
 
 .nav-link {
-  font-family: 'bebas neue', cursive;
+  font-family: "bebas neue", cursive;
   font-size: 1.12rem;
 }
 
@@ -123,14 +124,9 @@ body {
         height: 50vh;
     }
 
-
-
 } */
 
-
-
-
-/* This is the CSS for Shapedivider.app*/
+/*  SVG Home page This is the CSS for Shapedivider.app*/
 
 .custom-shape-divider-bottom-1648154086 {
   position: absolute;
@@ -140,9 +136,7 @@ body {
   overflow: hidden;
   line-height: 0;
   z-index: -1;
-  padding: 0;
-  filter: url(#shadow);
-  
+  filter: drop-shadow(0px -3px 3px rgba(0, 0, 0, 0.8));
 
 }
 
@@ -159,23 +153,20 @@ body {
 
 /* Shapedivider.app Ends */
 
-
-
-
-.home-logo {
+/* .home-logo {
   background-image: url("/Final-Project/img/Roque\ Martinez\ Blurb\ Portrait.jpg");
   background-size: cover;
   height: 400px;
   width: 400px;
   
-}
+} */
 
 .art {
   color: rgba(247, 211, 80, 1);
 }
 
 .logo-name {
-  font-family: 'Oswald',sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 400;
   /* font-size: 7em; */
   line-height: 98%;
@@ -183,12 +174,12 @@ body {
 }
 
 .readmore {
-  font-family: ('oswald');
+  font-family: ("oswald");
   font-weight: 600;
 }
 
 .hello {
-  font-family: ('oswald');
+  font-family: ("oswald");
   font-weight: 600;
 }
 
@@ -197,7 +188,7 @@ body {
 }
 
 .portfolio-title {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 500;
   letter-spacing: 1.1rem;
   color: rgba(241, 242, 246, 1);
@@ -207,17 +198,14 @@ body {
   background-color: rgba(247, 211, 80, 1);
   height: 4px;
   width: 30vw;
-
 }
 
 .services-title {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 500;
   letter-spacing: 1.1rem;
   color: rgba(241, 242, 246, 1);
-
 }
-
 
 .services {
   position: relative;
@@ -227,9 +215,7 @@ body {
   position: relative;
 }
 
-
-
-/* curve for services section start */
+/* SVG for services section start */
 
 .custom-shape-divider-top-1648270825 {
   position: absolute;
@@ -240,6 +226,9 @@ body {
   line-height: 0;
   transform: rotate(180deg);
   z-index: -1;
+  filter: drop-shadow(0px -6px 6px rgba(0, 0, 0, 0.8));
+
+
 }
 
 .custom-shape-divider-top-1648270825 svg {
@@ -253,11 +242,11 @@ body {
   fill: #353535;
 }
 
-/* curve for services section end */
+/* SVG for services section end */
 
 
 
-/* curve about me section start */
+/* SVG about me section start */
 
 .custom-shape-divider-bottom-1648437446 {
   position: absolute;
@@ -267,6 +256,7 @@ body {
   overflow: hidden;
   line-height: 0;
   z-index: -1;
+  filter: drop-shadow(0px -6px 6px rgba(0, 0, 0, 0.8));
 
 }
 
@@ -274,35 +264,35 @@ body {
   position: relative;
   display: block;
   width: calc(202% + 1.3px);
-  height: 460px;
+  height: 200px;
   transform: rotateY(180deg);
 }
 
 .custom-shape-divider-bottom-1648437446 .shape-fill {
   fill: #353535;
+
 }
 
 /** For mobile devices **/
 @media (max-width: 767px) {
   .custom-shape-divider-bottom-1648437446 svg {
-      width: calc(300% + 1.3px);
-      height: 500px;
+    width: calc(300% + 1.3px);
+    height: 500px;
   }
 }
 
-/* curve about me section end */
+/* SVG about me section end */
 
 
 
 /* cards in Services section start */
 
 .card-title {
-  font-family: 'oswald',sans-serif;
+  font-family: "oswald", sans-serif;
 }
 
 .card-color {
-  background-color: rgba(53, 53, 53, .4)
-  
+  background-color: rgba(53, 53, 53, 1);
 }
 
 .card-body {
@@ -310,18 +300,16 @@ body {
 }
 
 .service-col {
-  filter: drop-shadow(-8px -8px 5px rgba(0, 0, 0, 0.7));
-
+  filter: drop-shadow(-8px -8px 5px rgba(0, 0, 0, 0.5));
 }
 
 /* cards in Services section ends */
 
-
+/*  Card title underlines */
 
 .shape2 {
   background-color: rgba(247, 211, 80, 1);
   height: 4px;
-
 }
 
 .bg-image {
@@ -335,7 +323,7 @@ body {
 }
 
 .my-story {
-  font-family: 'oswald';
+  font-family: "oswald";
   color: rgb(0, 0, 0);
   font-size: 1.1rem;
 }
@@ -347,7 +335,7 @@ body {
 /* FORM ELEMENTS */
 
 .form-label {
-  font-family: 'oswald',sans-serif;
+  font-family: "oswald", sans-serif;
   color: rgba(241, 242, 246, 1);
 }
 
@@ -357,10 +345,11 @@ body {
 }
 
 .submit {
-  font-family: 'oswald', sans-serif;
+  font-family: "oswald", sans-serif;
   font-weight: 600;
 }
 
+/* footer SVG start*/
 
 .custom-shape-divider-top-1648531390 {
   position: absolute;
@@ -377,21 +366,21 @@ body {
   position: relative;
   display: block;
   width: calc(192% + 1.3px);
-  height: 300px;
+  height: 500px;
 }
 
 .custom-shape-divider-top-1648531390 .shape-fill {
   fill: #353535;
+  filter: drop-shadow(0px -3px 3px rgba(0, 0, 0, 0.8));
 }
+/* footer SVG end*/
 
 .footer {
+  background-color: rgba(6, 146, 177, 1);
   position: relative;
+  z-index: -1;
 }
 
 .fa-brands {
   color: #ffc107;
 }
-
-
-
-
