@@ -8,10 +8,6 @@ body {
   box-sizing: border-box;
 }
 
-.lg-wrapper {
-  position: relative;
-}
-
 /* navbar starts */
 
 .navbg {
@@ -165,6 +161,7 @@ body {
   color: rgba(247, 211, 80, 1);
 }
 
+
 .logo-name {
   font-family: "Oswald", sans-serif;
   font-weight: 400;
@@ -243,6 +240,7 @@ body {
 }
 
 /* SVG for services section end */
+
 
 
 
@@ -378,9 +376,14 @@ body {
 .footer {
   background-color: rgba(6, 146, 177, 1);
   position: relative;
-  z-index: -1;
+  z-index: 1;
 }
 
 .fa-brands {
   color: #ffc107;
+}
+
+.mask {
+  object-fit: cover;
+  opacity: .8;
 }
