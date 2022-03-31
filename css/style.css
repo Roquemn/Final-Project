@@ -132,7 +132,7 @@ body {
   overflow: hidden;
   line-height: 0;
   z-index: -1;
-  filter: drop-shadow(0px -3px 3px rgba(0, 0, 0, 0.8));
+  filter: drop-shadow(0px -6px 6px rgba(0, 0, 0, 0.8));
 
 }
 
@@ -158,7 +158,11 @@ body {
 } */
 
 .art {
-  color: rgba(247, 211, 80, 1);
+  color: rgb(255, 193, 7);
+}
+
+.by {
+  color: #0692b1;
 }
 
 
@@ -168,16 +172,15 @@ body {
   /* font-size: 7em; */
   line-height: 98%;
   color: rgba(241, 242, 246, 1);
+  letter-spacing: .2rem;
 }
 
 .readmore {
   font-family: ("oswald");
-  font-weight: 600;
 }
 
 .hello {
   font-family: ("oswald");
-  font-weight: 600;
 }
 
 .portfolio {
@@ -191,8 +194,14 @@ body {
   color: rgba(241, 242, 246, 1);
 }
 
+.descriptions {
+  font-family: 'oswald',sans-serif;
+  font-weight: 400;
+  letter-spacing: .2rem;
+}
+
 .shape {
-  background-color: rgba(247, 211, 80, 1);
+  background-color: rgb(255, 193, 7);
   height: 4px;
   width: 30vw;
 }
@@ -262,7 +271,7 @@ body {
   position: relative;
   display: block;
   width: calc(202% + 1.3px);
-  height: 200px;
+  height: 400px;
   transform: rotateY(180deg);
 }
 
@@ -306,7 +315,7 @@ body {
 /*  Card title underlines */
 
 .shape2 {
-  background-color: rgba(247, 211, 80, 1);
+  background-color: rgb(255, 193, 7);
   height: 4px;
 }
 
@@ -318,13 +327,12 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   filter: drop-shadow(-8px -8px 15px rgba(0, 0, 0, 0.7));
-  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .my-story {
   font-family: "oswald";
-  color: rgb(0, 0, 0);
-  font-size: 1.1rem;
+  color: rgba(241, 242, 246, 1);
+  /* font-size: 1.1rem; */
 }
 
 .contact {
@@ -345,7 +353,6 @@ body {
 
 .submit {
   font-family: "oswald", sans-serif;
-  font-weight: 600;
 }
 
 /* footer SVG start*/
@@ -365,7 +372,7 @@ body {
   position: relative;
   display: block;
   width: calc(192% + 1.3px);
-  height: 500px;
+  height: 250px;
 }
 
 .custom-shape-divider-top-1648531390 .shape-fill {
@@ -375,13 +382,18 @@ body {
 /* footer SVG end*/
 
 .footer {
-  background-color: rgba(6, 146, 177, 1);
+  padding-top: 10rem;
+  /* background-color: #0692b1; */
   position: relative;
-  z-index: 1;
+  z-index: 0;
 }
 
 .fa-brands {
-  color: #ffc107;
+  color: rgb(255, 193, 7);
+}
+
+.fa-brands:hover {
+  color: rgba(241, 242, 246, 1);
 }
 
 .mask {
@@ -389,5 +401,68 @@ body {
   opacity: .8;
 }
 
+
+
+/* hover effects */
+
+.card-title:hover {
+  color: rgb(255, 193, 7);
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #0692b1;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0692b1;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.submit:hover {
+  background-color: transparent;
+  color:#ffc107;
+}
+
+.hello:hover {
+background-color: transparent;
+color:#ffc107 ;
+}
+
+.roque:hover {
+  color: #353535;
+
+}
+
+.illustrator:hover {
+  color: #353535;
+
+}
+
+.art:hover {
+  color: #353535;
+}
+
+.h2 {
+  letter-spacing: .2rem;
+}
+
+.carouselbox {
+  filter: drop-shadow(-6px -6px 8px rgba(0, 0, 0, 0.8));
+}
 
 
