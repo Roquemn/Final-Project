@@ -313,6 +313,7 @@ body {
 .bg-image {
   max-height: 50vh;
   width: 50vw;
+  background-size:auto;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -387,3 +388,6 @@ body {
   object-fit: cover;
   opacity: .8;
 }
+
+
+
