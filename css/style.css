@@ -183,7 +183,9 @@ body {
 }
 
 .portfolio {
+  position: relative;
   background-color: rgba(53, 53, 53, 1);
+  margin-top: -2rem;
 }
 
 .portfolio-title {
