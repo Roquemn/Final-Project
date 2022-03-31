@@ -5,7 +5,6 @@ body {
   background-color: rgba(6, 146, 177, 1);
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 /* navbar starts */
@@ -273,10 +272,12 @@ body {
   width: calc(202% + 1.3px);
   height: 400px;
   transform: rotateY(180deg);
+  
 }
 
 .custom-shape-divider-bottom-1648437446 .shape-fill {
   fill: #353535;
+  
 
 }
 
@@ -289,6 +290,35 @@ body {
 }
 
 /* SVG about me section end */
+
+
+/* footer SVG start*/
+
+.custom-shape-divider-top-1648531390 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  z-index: -1;
+  filter: drop-shadow(0px -6px 3px rgba(0, 0, 0, 0.8));
+
+}
+
+.custom-shape-divider-top-1648531390 svg {
+  position: relative;
+  display: block;
+  width: calc(192% + 1.3px);
+  height: 250px;
+}
+
+.custom-shape-divider-top-1648531390 .shape-fill {
+  fill: #353535;
+}
+/* footer SVG end*/
+
 
 
 
@@ -320,6 +350,7 @@ body {
 }
 
 .bg-image {
+  position: relative;
   max-height: 50vh;
   width: 50vw;
   background-size:auto;
@@ -330,6 +361,7 @@ body {
 }
 
 .my-story {
+  position: relative;
   font-family: "oswald";
   color: rgba(241, 242, 246, 1);
   /* font-size: 1.1rem; */
@@ -346,40 +378,11 @@ body {
   color: rgba(241, 242, 246, 1);
 }
 
-.map {
-  height: 50vh;
-  min-width: 30%;
-}
 
 .submit {
   font-family: "oswald", sans-serif;
 }
 
-/* footer SVG start*/
-
-.custom-shape-divider-top-1648531390 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-  z-index: -1;
-}
-
-.custom-shape-divider-top-1648531390 svg {
-  position: relative;
-  display: block;
-  width: calc(192% + 1.3px);
-  height: 250px;
-}
-
-.custom-shape-divider-top-1648531390 .shape-fill {
-  fill: #353535;
-  filter: drop-shadow(0px -3px 3px rgba(0, 0, 0, 0.8));
-}
-/* footer SVG end*/
 
 .footer {
   padding-top: 10rem;
